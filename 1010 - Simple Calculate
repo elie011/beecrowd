@@ -1,0 +1,17 @@
+product1 = input()
+T1 = product1.split(" ")
+code1 = int(T1[0])
+units1 = int(T1[1])
+price1 = float(T1[2])
+total1 = units1*price1
+
+product2 = input()
+T2 = product2.split(" ")
+code2 = int(T2[0])
+units2 = int(T2[1])
+price2 = float(T2[2])
+total2 = units2*price2
+
+soma = total1+total2
+soma = "{:.2f}".format(soma)
+print("VALOR A PAGAR: R$",soma)
