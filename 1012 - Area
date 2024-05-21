@@ -1,0 +1,32 @@
+lista = input()
+lista = lista.split(" ")
+
+A = float(lista[0])
+B = float(lista[1])
+C = float(lista[2])
+
+#triangulo retangulo
+area_triangulo = (1/2) * (A*C)
+area_triangulo = "{:.3f}".format(area_triangulo)
+
+#circulo
+area_circulo = 3.14159 * (C**2)
+area_circulo = "{:.3f}".format(area_circulo)
+
+#trapezio
+area_trapezio = ((A+B)/2) * C
+area_trapezio = "{:.3f}".format(area_trapezio)
+
+#quadrado
+area_quadrado = B*B
+area_quadrado = "{:.3f}".format(area_quadrado)
+
+#retangulo
+area_retangulo = A*B
+area_retangulo = "{:.3f}".format(area_retangulo)
+
+print("TRIANGULO:",area_triangulo)
+print("CIRCULO:",area_circulo)
+print("TRAPEZIO:",area_trapezio)
+print("QUADRADO:",area_quadrado)
+print("RETANGULO:",area_retangulo)
