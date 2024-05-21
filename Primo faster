@@ -1,0 +1,21 @@
+from math import ceil, sqrt
+from benchmark import *
+
+def primo(n):
+    if n % 2 == 0: return n == 2
+    raiz = ceil(sqrt(n))
+    p = 3
+    while p <= raiz:
+        if n % p == 0:
+            return False
+        p += 2
+    return True
+            
+n = int(input())
+while n > 0:
+    x = int(input())
+    if primo(x):
+        print(f'{x} eh primo')
+    else:
+        print(f'{x} nao eh primo')
+    n-=1
