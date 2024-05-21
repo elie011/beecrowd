@@ -1,0 +1,10 @@
+NOTA1 = float(input())
+NOTA2 = float(input())
+media = (NOTA1+NOTA2)/2
+
+if media >= 6.00:
+    print('aprovado')
+elif media >= 5:
+    print('talvez com a sub')
+else:
+    print('reprovado')
