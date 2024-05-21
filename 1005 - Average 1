@@ -1,0 +1,7 @@
+a = float(input())
+nota1 = a*3.5
+b = float(input())
+nota2 = b*7.5
+average = (nota1+nota2)/(3.5+7.5)
+media = "{:.5f}".format(average)
+print('MEDIA =',media)
