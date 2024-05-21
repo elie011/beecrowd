@@ -1,0 +1,9 @@
+a = float(input())
+nota1 = a*2
+b = float(input())
+nota2 = b*3
+c = float(input())
+nota3 = c*5
+average = (nota1+nota2+nota3)/(2+3+5)
+media = "{:.1f}".format(average)
+print('MEDIA =',media)
