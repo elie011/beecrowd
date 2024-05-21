@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+prodAB = A*B
+prodCD = C*D
+difference = prodAB - prodCD
+print("DIFERENCA =",difference)
